@@ -1,3 +1,5 @@
+# application entry point
+
 require_relative 'phone_worder'
 
 puts "Enter the input"

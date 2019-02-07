@@ -1,16 +1,16 @@
 require_relative 'word_helper'
 
+# When the program starts, the dictionary will get initialized.
+# Each words in the dictionay will be mapped with the corresponding number combination,
+# for example {"223" => ["abc", "acb", "bca", "bac", "cba", "cab"]}
+# this will avoid calculating words combinations every time.
+
 class PhoneDictionary
 
   def initialize
     @map = {}
     read_dictionary_file
   end
-
-  def meht
-    hell
-  end
-
 
   def find_words(number)
     @map[number] || []

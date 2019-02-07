@@ -1,3 +1,5 @@
+# A helper to convert word "aaa" to number "222".
+
 module WordHelper
 
   MAP = {

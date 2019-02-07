@@ -1,3 +1,6 @@
+# Input should be 10 digits. Should only contain digits between 2 to 9.
+# except 2 to 9, no other characters are allowed.
+
 module Validator
 
   def self.validate(input)

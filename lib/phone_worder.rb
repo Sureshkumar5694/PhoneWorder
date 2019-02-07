@@ -15,11 +15,12 @@ class PhoneWorder
 
   private
 
+  # splitting the numbers into two parts by given length
   def split_number(number, length)
     [number[0...length], number[length..-1]]
   end   
   
-
+  # recursively calculate the words combination based on the minimum word length 
   def find_words_combinations(number) 
     words_list =[]  
     
