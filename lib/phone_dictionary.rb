@@ -7,6 +7,11 @@ class PhoneDictionary
     read_dictionary_file
   end
 
+  def meht
+    hell
+  end
+
+
   def find_words(number)
     @map[number] || []
   end
