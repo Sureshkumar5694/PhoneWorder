@@ -2,8 +2,12 @@
 
 require_relative 'phone_worder'
 
-puts "Enter the input"
-input = gets.gsub("\n", "")
+phone_worder = PhoneWorder.new
 
-
-puts "#{PhoneWorder.new.convert(input)}"
+loop do 
+  puts "Please enter the input. Press Enter to exit"
+  input = gets.gsub("\n", "")
+  break if input.empty?
+  result = phone_worder.convert(input)
+  puts "#{result}"
+end 
