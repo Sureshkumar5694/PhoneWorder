@@ -29,13 +29,13 @@
 
 ## Benchmark 
 
-* The dictionary initialization took 1813.869 sec since it will index all the words.
+* The dictionary initialization took 1813.869 millisec since it will index all the words.
 
-* After the initialization, tried with three inputs.Each took 300 sec on average
+* After the initialization, tried with three inputs.Each took 300 millisec on average
 
-    input1 => 0.318 sec
-    input2 => 0.264 sec
-    input3 => 0.320 sec
+    input1 => 0.318 millisec
+    input2 => 0.264 millisec
+    input3 => 0.320 millisec
 
 * Please find the details in the attached image    
 
